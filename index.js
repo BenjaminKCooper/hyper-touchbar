@@ -20,7 +20,7 @@ const getTouchBarControls = view => {
   if (view === 'default') {
     controls = [...controls, ...getCommandHistoryControls(MAX_COMMAND_HISTORY_CONTROLS)];
   }
-  return controls;
+  return controls;  
 };
 
 let currentUid;
